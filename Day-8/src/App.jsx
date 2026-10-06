@@ -1,5 +1,6 @@
 import './App.css'
 import { Cards } from './Components/Cards';
+import { Counter } from './Counter';
 function Para(){
   return <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero laboriosam id sequi doloremque natus necessitatibus tempora. Natus, eum eveniet laudantium placeat aliquam ut vitae ullam ex corrupti voluptatum maxime. Molestias.</p>;
 }
@@ -12,6 +13,9 @@ function App() {
       <Cards title = "Card 1" description="This is the first Card" />
       <Cards title = "Card 2" description="This is the Second Card" />
       <Cards title = "Card 3" description="This is the Third Card" />
+
+      <h1>Day 10</h1>
+      <Counter />
     </div>
   )
 }
