@@ -1,6 +1,7 @@
 import './App.css'
 import { Cards } from './Components/Cards';
 import { Counter } from './Counter';
+import { Posts } from './Posts';
 import { ToggleMessage } from './ToggleMessage';
 import { UserList } from './UserList';
 function Para(){
@@ -24,6 +25,8 @@ function App() {
 
       <h1>Day 12</h1>
       <UserList />
+      <h1> Day 14</h1>
+      <Posts />
     </div>
   )
 }
